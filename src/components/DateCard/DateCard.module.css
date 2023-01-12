@@ -1,0 +1,11 @@
+.container {
+  opacity: .35;
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  width: 17px;
+  margin-right: 2px;
+  margin-left: -2px;
+}
