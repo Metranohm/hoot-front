@@ -1,15 +1,11 @@
-import styles from "./BlogList.module.css"
-import BlogCard from "../../components/BlogCard/BlogCard";
+import styles from './BlogList.module.css';
 
 const BlogList = (props) => {
-  console.log("bloglist props:", props);
-  return (
+  return ( 
     <main className={styles.container}>
-      {props.blogs.map(blog => (
-        <BlogCard blog={blog} key={blog._id}/>
-      ))}
+      Blog List
     </main>
-  )
+  );
 }
 
-export default BlogList
+export default BlogList;
